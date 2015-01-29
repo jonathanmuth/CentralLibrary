@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: Agnes
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Jonathan Muth
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Agnes – a kirby-based reference library
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: 
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © 2009-(date: Year)

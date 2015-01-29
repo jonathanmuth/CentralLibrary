@@ -11,12 +11,14 @@
 
   <?php echo css('assets/css/main.css') ?>
 
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  
 </head>
 <body>
 
-  <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
-    <?php snippet('menu') ?>
-  </header>
+<!--   <header class="header cf" role="banner">
+      <h1 class="header__title center">Agnes</h1>
+      <h2 class="header__subtitle center">A Reference Manager</h2>
+  </header> -->
+
+  <?php snippet('menu') ?>

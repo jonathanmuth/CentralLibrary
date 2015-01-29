@@ -1,0 +1,119 @@
+// Reset styles. Don't have anything to do with opt-in typography.
+html {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $font-stack--sans;
+  font-size: $font-size--base;
+  letter-spacing: $base-letter-spacing;
+  line-height: $line-height--base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 1200px;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0 auto;
+  text-align: left;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  // browser quirks
+  max-height: auto;
+  width: auto;
+  height: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button,
+input[type=submit],
+input[type=button] {
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+select,
+input,
+textarea {
+  font-family: inherit;
+  line-height: normal;
+  outline: 0;
+  border-radius: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid transparent;
+  background: none;
+  display: block;
+}
+
+strong, em {
+  font-family: $font-stack--sans;
+  font-weight: 600;
+}
+
+// Selection colors
+*::selection {
+  background: $color--accent;
+  color: $color--white;
+}
+
+*::-moz-selection {
+  background: $color--accent;
+  color: $color--white;
+}
+
+// Form Pseudo Elements
+select:-moz-focus-inner {
+  border: 0;
+}
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+::-webkit-input-placeholder {
+  color: $color--dark-grey;
+}
+
+:-moz-placeholder {
+  color: $color--dark-grey;
+}
+
+::-moz-placeholder {
+  color: $color--dark-grey;
+}
+
+:-ms-input-placeholder {
+  color: $color--dark-grey;
+}

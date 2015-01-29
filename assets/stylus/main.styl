@@ -1,0 +1,58 @@
+.main {
+  counter-reset: section;
+  width: 100%;
+}
+
+.headline {
+  font-family: $font-stack--serif;
+  font-weight: $font-weight--regular;
+}
+
+hr {
+  margin: 3em 0;
+  height: 2px;
+  background: $color--grey;
+}
+
+.button {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  text-align: center;
+  font-weight: $font-weight--bold;
+  border: 2px solid $color--grey;
+  
+  &:hover {
+    border: 2px solid $color--black;
+    color: $color--black;
+  }
+  
+  &--disabled {
+    color: $color--grey;
+  }
+}
+
+.header {
+  margin-bottom: 2em;
+}
+
+.excerpt {
+  margin-bottom: 1.3em;
+  
+  p {
+    max-width: 600px;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.notes {
+  margin-bottom: 1.3em;
+  
+  p {
+    max-width: 600px;
+  }
+}

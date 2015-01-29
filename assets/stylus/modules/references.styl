@@ -1,0 +1,37 @@
+.references {
+
+  .reference {
+    display: inline-block;
+    width: 32%;
+    margin-right: 2%;
+    margin-top: 1em
+    
+    &:nth-child(-n+3) {
+      margin-top: 0;
+    }
+    
+    &:nth-child(3n+3) {
+      margin-right: 0;
+    }
+    
+    &:nth-child(1) {
+      animation: hide 0.25s, fadein 0.25s 0.25s;
+    }  
+    &:nth-child(2) {
+      animation: hide 0.375s, fadein 0.25s 0.375s;
+    } 
+    &:nth-child(3) {
+      animation: hide 0.5s, fadein 0.25s 0.5s;
+    }
+    &:nth-child(4) {
+      animation: hide 0.625s, fadein 0.25s 0.625s;
+    }
+    &:nth-child(5) {
+      animation: hide 0.75s, fadein 0.25s 0.75s;
+    }
+    &:nth-child(6) {
+      animation: hide 0.875s, fadein 0.25s 0.875s;
+    }
+  }
+
+}

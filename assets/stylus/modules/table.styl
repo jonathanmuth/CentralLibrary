@@ -1,0 +1,78 @@
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #fff;
+  border-bottom: 2px solid black;
+  padding: 0.5em;
+  font-weight: $font-weight--black;
+  cursor: pointer;
+  user-select: none;
+  border-right: 2px solid white;
+  
+  &:hover {
+    background-color: $color--yellow;
+  }
+}
+
+th:last-child {
+  border-right: none;
+} 
+
+tbody
+
+  > *
+    
+    for row in (1..100)
+      &:nth-child({row})
+          animation: hide 0.25s + 0.125 * (row - 1), fadein 0.25s 0.25s + 0.125 * (row - 1)
+
+
+td {
+  
+  &:first-child {
+    min-width: 180px;
+  }
+  
+  & a {
+    display: block;
+    height:100%;
+    width:100%;
+    padding: 0.75em 0.5em;
+  }
+  
+  &:hover {
+    background-color: $color--yellow;
+  }
+
+}
+
+tr {
+  
+  border-bottom: 1px solid $color--light-grey;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:nth-child(odd) {
+
+  }
+
+}
+
+.sortable_header {
+  vertical-align: middle;
+}
+
+.sorttable_sorted, .sorttable_sorted_reverse {
+  background-color: $color--light-grey;
+}
+
+#sorttable_sortrevind, #sorttable_sortfwdind {
+  padding-left: 0.25em;
+  font-size: 0.5em;
+  vertical-align: middle;
+  text-align: right;
+}
