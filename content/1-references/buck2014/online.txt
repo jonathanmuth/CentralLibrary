@@ -1,40 +1,28 @@
-Title: Die Metapher des Hypertexts
+Title: Basil & Fabian
 
 ----
 
-Subtitle: 
+Subtitle: A Wizard & His Man
 
 ----
 
-Author: Levy, Pierre
+Author: Jamis Buck
 
 ----
 
-Citekey: levy:1999
+Citekey: buck:2014
 
 ----
 
-Journal: -
+Sourceurl: http://blog.jamisbuck.org/2014/05/05/first-great-secret.html#start
 
 ----
 
-Year: 1999
+Year: 2014
 
 ----
 
 Month: 
-
-----
-
-Volume: 
-
-----
-
-Number: 
-
-----
-
-Pages: 
 
 ----
 

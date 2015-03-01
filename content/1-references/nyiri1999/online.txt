@@ -1,4 +1,4 @@
-Title: Die Metapher des Hypertexts
+Title: Konservativ sein im Zeitalter des Internets
 
 ----
 
@@ -6,15 +6,15 @@ Subtitle:
 
 ----
 
-Author: Levy, Pierre
+Author: J.C. Nyíri
 
 ----
 
-Citekey: levy:1999
+Citekey: nyiri:1999
 
 ----
 
-Journal: -
+Sourceurl: http://www.hunfi.hu/nyiri/CollBud99.htm
 
 ----
 
@@ -23,18 +23,6 @@ Year: 1999
 ----
 
 Month: 
-
-----
-
-Volume: 
-
-----
-
-Number: 
-
-----
-
-Pages: 
 
 ----
 

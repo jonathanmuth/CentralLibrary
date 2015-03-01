@@ -83,8 +83,6 @@
 
     <div>
 
-    <hr>
-
   </main>
 
 <?php snippet('footer') ?>

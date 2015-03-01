@@ -1,4 +1,4 @@
-<tr>
+<tr class="row">
   <td><a href="<?php echo url('references/?q=' . urlencode($data->author()))?>"><?php echo $data->author()->html() ?></a></td>
   <td><a href="<?php echo $data->url() ?>"><em><?php echo $data->title()->html() ?></em> <?php echo $data->subtitle()->html() ?></a></td>
   <td><a href="<?php echo url('references/?q=' . urlencode($data->journal()->or($data->publisher())))?>"><?php echo $data->journal()->html()->or($data->publisher()) ?></a></td>

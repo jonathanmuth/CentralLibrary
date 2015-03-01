@@ -23,11 +23,11 @@
 
       <table class="sortable">
         <tr>
-          <th><span class="sortable_header">Author</span></th>
+          <th><span class="sortable_header">Author/s</span></th>
           <th><span class="sortable_header">Title</span></th>
           <th><span class="sortable_header">Source</span></th>
           <th><span class="sortable_header">Year</span></th>
-          <th class="sorttable_nosort"><span class="sortable_header"><i class="fa fa-print fa-lg"></i></span></th>
+          <th class="sorttable_nosort center"><span class="sortable_header"><i class="fa fa-print fa-lg"></i></span></th>
         </tr>
         <?php foreach($references as $reference): ?>
             <?php snippet('reference/row', array('data' => $reference)) ?>
@@ -49,8 +49,6 @@
       <?php endif ?>
 
     <?php endif ?>
-
-    <hr>
 
   </main>
 

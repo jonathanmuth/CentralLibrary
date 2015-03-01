@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
   text-align: center;
+  background: $color--light-grey;
 }
 
 *,
@@ -19,11 +20,15 @@ body {
   line-height: $line-height--base;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 1200px;
-  padding-left: 1em;
-  padding-right: 1em;
+  max-width: 1220px;
+  padding: 2em;
   margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
   text-align: left;
+  background: $color--white;
+  border: 0.25em solid $color--grey;
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0.5em 0px;
 }
 
 a {
@@ -76,9 +81,12 @@ hr {
   display: block;
 }
 
-strong, em {
-  font-family: $font-stack--sans;
+strong {
   font-weight: 600;
+}
+
+em {
+  font-style: italic;
 }
 
 // Selection colors

@@ -2,11 +2,16 @@
 
   <main class="main" role="main">
 
+      <div class="quote">
+        <div class="quote__body">Was wir über unsere Gesellschaft, ja über die Welt, in der wir leben, wissen, wissen wir durch die Massenmedien</div>
+        <div class="quote__author">Die Gesellschaft der Gesellschaft, Niklas Luhmann</div>
+      </div>
+
       <h2 class="section__label">Featured Reads</h2>
       
       <ul class="references">
         <?php foreach(page('references')->children()->filterBy('featured', '1')->limit(3)->shuffle() as $featured): ?><!-- 
-       --><li class="reference">
+       --><li class="reference slideUpIn">
             <?php snippet('reference/cover', array('data' => $featured)) ?>
         </li><!--
       --><?php endforeach ?>
@@ -16,13 +21,11 @@
 
       <ul class="references">
         <?php foreach(page('references')->children()->filterBy('featured', '1')->limit(3)->shuffle() as $featured): ?><!-- 
-       --><li class="reference">
+       --><li class="reference slideUpIn">
             <?php snippet('reference/cover', array('data' => $featured)) ?>
         </li><!--
       --><?php endforeach ?>
       </ul>
-
-    <hr>
 
   </main>
 

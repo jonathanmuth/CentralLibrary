@@ -22,14 +22,16 @@ th:last-child {
 
 tbody
 
-  > *
+  // > *
     
-    for row in (1..100)
-      &:nth-child({row})
-          animation: hide 0.25s + 0.125 * (row - 1), fadein 0.25s 0.25s + 0.125 * (row - 1)
+  //   for row in (1..100)
+  //     &:nth-child({row})
+  //         animation: hide 0.25s + 0.125 * (row - 1), fadein 0.25s 0.25s + 0.125 * (row - 1)
 
 
 td {
+  
+  overflow: hidden;
   
   &:first-child {
     min-width: 180px;
@@ -49,6 +51,11 @@ td {
 }
 
 tr {
+  
+  &:hover {
+    background-color: lighten($color--light-grey, 5);
+    
+  }
   
   border-bottom: 1px solid $color--light-grey;
   

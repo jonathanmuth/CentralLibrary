@@ -31,8 +31,6 @@
 
       <?php endif; ?>
 
-    <hr>
-
   </main>
 
 <?php snippet('footer') ?>

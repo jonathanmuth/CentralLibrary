@@ -1,20 +1,20 @@
-Title: Does Writing Have a Future?
+Title: Understanding Media
 
 ----
 
-Subtitle: 
+Subtitle: The Extensions of Man
 
 ----
 
-Author: Flusser, Vilém
+Author: Marshall McLuhan
 
 ----
 
-Citekey: flusser:2011
+Citekey: McLuhan:1994
 
 ----
 
-Publisher: University of Minnesota Press
+Publisher: MIT Press
 
 ----
 
@@ -22,11 +22,11 @@ Editor:
 
 ----
 
-Address: Minneapolis / London
+Address: Cambridge / London
 
 ----
 
-Year: 2011
+Year: 1994
 
 ----
 
@@ -74,11 +74,11 @@ Notes:
 
 ----
 
-Cover: blue
+Cover: grey
 
 ----
 
-Featured: 1
+Featured: 
 
 ----
 

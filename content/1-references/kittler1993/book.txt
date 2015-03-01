@@ -10,7 +10,7 @@ Author: Friedrich, Kittler
 
 ----
 
-Citekey: kittler1993
+Citekey: kittler:1993
 
 ----
 

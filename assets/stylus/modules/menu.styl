@@ -1,6 +1,5 @@
 .menu {
   width: 32%;
-  margin-top: 3em;
   margin-bottom: 1.5em;
   display: inline-block;
   position: relative;
@@ -32,10 +31,16 @@
     position: relative;
     border-top: 1px solid $color--grey;
     padding: .35em 0;
+    clearfix()
   }
   
   > li > a {
     font-weight: 600;
+    float: left;
+  }
+  
+  > li > a.action {
+    float: right;
   }
   
   &__submenu {

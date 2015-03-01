@@ -2,7 +2,7 @@
 <?php if($data->author() != ''): ?>  Author = {<?php echo $data->author() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->editor() != ''): ?>  Editor = {<?php echo $data->editor() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->key() != ''): ?>  Key = {<?php echo $data->key() ?>},<?php echo "\n" ?><?php endif ?>
-<?php if($data->title() != ''): ?>  Title = {<?php echo $data->title() ?>},<?php echo "\n" ?><?php endif ?>
+<?php if($data->title() != ''): ?>  Title = {{<?php echo $data->title() ?><?php if($data->subtitle() != ''): ?> <?php echo $data->subtitle() ?><?php endif ?>}},<?php echo "\n" ?><?php endif ?>
 <?php if($data->type() != ''): ?>  Type = {<?php echo $data->type() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->series() != ''): ?>  Series = {<?php echo $data->series() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->booktitle() != ''): ?>  Book = {<?php echo $data->booktitle() ?>},<?php echo "\n" ?><?php endif ?>
@@ -19,6 +19,7 @@
 <?php if($data->address() != ''): ?>  Address = {<?php echo $data->address() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->year() != ''): ?>  Year = {<?php echo $data->year() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->month() != ''): ?>  Month = {<?php echo $data->month() ?>},<?php echo "\n" ?><?php endif ?>
+<?php if($data->sourceurl() != ''): ?>  URL = {<?php echo $data->sourceurl() ?>},<?php endif ?>
 <?php if($data->note() != ''): ?>  Note = {<?php echo $data->note() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->annote() != ''): ?>  Annote = {<?php echo $data->annote() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->crossref() != ''): ?>  Crossref = {<?php echo $data->crossref() ?>},<?php echo "\n" ?><?php endif ?>

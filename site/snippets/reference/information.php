@@ -21,6 +21,7 @@
   <?php if($data->address() != ''): ?><li><strong>Address:</strong> <a href="<?php echo url('references/?q=' . urlencode($data->address()))?>"><?php echo $data->address() ?></a></li><?php endif ?>
   <?php if($data->year() != ''): ?><li><strong>Published:</strong> <a href="<?php echo url('references/?q=' . urlencode($data->year()))?>"><?php echo $data->year() ?></a></li><?php endif ?>
   <?php if($data->month() != ''): ?><li><strong>Month:</strong> <a href="<?php echo url('references/?q=' . urlencode($data->month()))?>"><?php echo $data->month() ?></a></li><?php endif ?>
+  <?php if($data->sourceurl() != ''): ?><li><strong>URL:</strong> <a href="<?php echo $data->sourceurl() ?>"><?php echo $data->sourceurl() ?></a></li><?php endif ?>
   <?php if($data->note() != ''): ?><li><strong>Note:</strong> <a href="<?php echo url('references/?q=' . urlencode($data->note()))?>"><?php echo $data->note() ?></a></li><?php endif ?>
   <?php if($data->annote() != ''): ?><li><strong>Annote:</strong> <a href="<?php echo url('references/?q=' . urlencode($data->annote()))?>"><?php echo $data->annote() ?></a></li><?php endif ?>
   <?php if($data->crossref() != ''): ?><li><strong></strong> <a href="<?php echo url('references/?q=' . urlencode($data->crossref()))?>"><?php echo $data->crossref() ?></a></li><?php endif ?>

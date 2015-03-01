@@ -1,20 +1,20 @@
-Title: Does Writing Have a Future?
+Title: Steps to an Ecology of Mind:
 
 ----
 
-Subtitle: 
+Subtitle: Collected Essays in Anthropology, Psychiatry, Evolution and Epistemology
 
 ----
 
-Author: Flusser, Vilém
+Author: Gregory Bateson
 
 ----
 
-Citekey: flusser:2011
+Citekey: bateson:1972
 
 ----
 
-Publisher: University of Minnesota Press
+Publisher: University of Chicago Press
 
 ----
 
@@ -22,11 +22,11 @@ Editor:
 
 ----
 
-Address: Minneapolis / London
+Address: Chicago
 
 ----
 
-Year: 2011
+Year: 1972
 
 ----
 
@@ -74,11 +74,11 @@ Notes:
 
 ----
 
-Cover: blue
+Cover: grey
 
 ----
 
-Featured: 1
+Featured: 
 
 ----
 

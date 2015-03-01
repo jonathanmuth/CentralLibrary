@@ -2,18 +2,18 @@
 
   <main class="main" role="main">
 
-    <div class="grid">
+    <div class="row">
 
-      <div class="one-third">
+      <div class="four columns">
 
         <?php snippet('reference/cover', array('data' => $page)) ?>
 
-        <div class="grid">
+        <div class="row">
 
-          <div class="one-half">
+          <div class="six columns">
             <a class="button" ><i class="fa fa-arrow-circle-down"></i> Download</a>
           </div><!-- 
-           --><div class="one-half">
+           --><div class="six columns">
             <a class="button" href="../panel/#/pages/show/<?php echo $page->uri() ?>"><i class="fa fa-pencil"></i> Edit</a>
           </div>
 
@@ -21,7 +21,7 @@
 
       </div>
 
-      <div class="two-thirds">
+      <div class="eight columns">
 
         <div class="text">
 

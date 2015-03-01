@@ -10,7 +10,7 @@ Author: Siegert, Bernhard
 
 ----
 
-Citekey: siegert2003
+Citekey: siegert:2003
 
 ----
 

@@ -2,7 +2,7 @@
 
   </footer>
 
-  <?php echo js('assets/scripts/sorttable.js') ?>
+  <?php echo js('assets/javascript/all.js') ?>
 
 </body>
 </html>
