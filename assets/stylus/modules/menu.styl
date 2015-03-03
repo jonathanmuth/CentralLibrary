@@ -1,75 +1,63 @@
 .menu {
-  width: 32%;
-  margin-bottom: 1.5em;
+  width: 100%;
   display: inline-block;
   position: relative;
+  margin-top: 2em;
+  z-index: 100;
+  text-align: left;
   
   a {
     display: block;
     color: #222;
+    text-align: center;
+    padding: 0.25em 2em;
+    font-size: 1em;
   }
+  
+  .action {
+    padding: 0.25em 0.75em;
+  }
+  
   a:hover {
     color: $color--blue;
     text-decoration: none;
   }
   .active {
     color: $color--blue;
+    background-color: $color--white;
+    border: 0.25em solid $color--grey;
+    border-bottom: none;
+
   }
   li {
+    display: inline-block;
     list-style: none;
+    margin-bottom: -0.2em;
+    border: 0.25em solid transparent
+    border-bottom: none;
     
-    &:hover {
-      
-      > .menu__submenu {
-        display: block;
+    &:last-child {
+      float: right;
+      a {
+        padding: 0.25em 0.75em;
+        text-transform: none;
       }
-
     }
     
   }
   > li {
     position: relative;
-    border-top: 1px solid $color--grey;
     padding: .35em 0;
     clearfix()
   }
   
   > li > a {
+    text-transform: uppercase;
     font-weight: 600;
-    float: left;
   }
   
   > li > a.action {
-    float: right;
-  }
-  
-  &__submenu {
-    position: absolute;
-    z-index: 1;
-    top: 2em;
-    display: none;
-    width: 100%;
     
-    &:hover {
-      display: block;
-    }
-    
-    li {
-      border-bottom: 1px solid #444; 
-    }
-    a {
-      padding: 0.5em 0.75em;
-      font-size: .9em;
-      font-weight: $font-weight--bold;
-      color: #fff;
-      background: $color--black;
-      white-space: nowrap;
-    }
-    a:hover {
-      background: #333;
-      color: #fff;
-    }
-
   }
 
 }
