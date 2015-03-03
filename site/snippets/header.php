@@ -16,9 +16,4 @@
 </head>
 <body>
 
-<!--   <header class="header cf" role="banner">
-      <h1 class="header__title center">Agnes</h1>
-      <h2 class="header__subtitle center">A Reference Manager</h2>
-  </header> -->
-
   <?php snippet('menu') ?>
