@@ -10,16 +10,29 @@
 
         <div class="grid">
 
-          <div class="one-half">
+          <?php if($user = $site->user()): ?>
+            <div class="one-half">
+            <?php if($file = $page->file()): ?>
+              <a href="<?php echo $file->url() ?>" class="button" ><i class="fa fa-arrow-circle-down"></i> Download</a>
+            <?php else: ?> 
+              <a class="button" ><i class="fa fa-arrow-circle-down"></i> Download</a>
+            <?php endif ?>
+            </div><!-- 
+             --><div class="one-half">
+              <a class="button" href="../panel/#/pages/show/<?php echo $page->uri() ?>"><i class="fa fa-pencil"></i> Edit</a>
+            </div>
+          <?php else: ?>
+            <div class="one-half">
             <?php if($file = $page->file()): ?>
               <a href="<?php echo $file->url() ?>" class="button" ><i class="fa fa-arrow-circle-down"></i> Download</a>
             <?php else: ?> 
               <a class="button button--disabled" ><i class="fa fa-arrow-circle-down"></i> Download</a>
             <?php endif ?>
-          </div><!-- 
-           --><div class="one-half">
-            <a class="button" href="../panel/#/pages/show/<?php echo $page->uri() ?>"><i class="fa fa-pencil"></i> Edit</a>
-          </div>
+            </div><!-- 
+             --><div class="one-half">
+              <a class="button button--disabled"><i class="fa fa-pencil"></i> Edit</a>
+            </div>
+          <?php endif ?>
 
         </div>
 
