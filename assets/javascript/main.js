@@ -16,9 +16,3 @@ var showText = function (target, message, index, interval) {
     setTimeout(function () { showText(target, message, index, interval); }, interval);
   }
 }
-
-$(function () {
-
-  showText(".quote", "Hello, World!", 0, 500);   
-
-});
