@@ -15,7 +15,7 @@ for more information: http://getkirby.com/license
 
 */
 
-c::set('license', 'put your license key here');
+c::set('license', 'K2-PERSONAL-a71ab2d571163591f7764dfb71da0baf');
 
 /*
 
@@ -30,3 +30,13 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 */
 
 c::set('panel.stylesheet', 'assets/css/panel.css');
+
+c::set('routes', array(
+  array(
+    'pattern' => 'logout',
+    'action'  => function() {
+      if($user = site()->user()) $user->logout();
+      go('login');
+    }
+  )
+));
