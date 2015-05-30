@@ -1,0 +1,63 @@
+.menu {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-top: 2em;
+  z-index: 100;
+  text-align: left;
+  
+  a {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 0.25em 2em;
+    font-size: 1em;
+  }
+  
+  .action {
+    padding: 0.25em 0.75em;
+  }
+  
+  a:hover {
+    color: $color--blue;
+    text-decoration: none;
+  }
+  .active {
+    color: $color--blue;
+    background-color: $color--white;
+    border: 0.25em solid $color--grey;
+    border-bottom: none;
+
+  }
+  li {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -0.2em;
+    border: 0.25em solid transparent
+    border-bottom: none;
+    
+    &:last-child {
+      float: right;
+      a {
+        padding: 0.25em 0.75em;
+        text-transform: none;
+      }
+    }
+    
+  }
+  > li {
+    position: relative;
+    padding: .35em 0;
+    clearfix()
+  }
+  
+  > li > a {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  > li > a.action {
+    
+  }
+
+}

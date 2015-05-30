@@ -1,0 +1,85 @@
+Title: S/Z
+
+----
+
+Subtitle: 
+
+----
+
+Author: Barthes, Roland
+
+----
+
+Citekey: barthes:1974
+
+----
+
+Publisher: Blackwell
+
+----
+
+Editor: 
+
+----
+
+Address: New York
+
+----
+
+Year: 1974
+
+----
+
+Month: 
+
+----
+
+Volume: 
+
+----
+
+Number: 
+
+----
+
+Series: 
+
+----
+
+Edition: 
+
+----
+
+Pages: 
+
+----
+
+Collections: 
+
+----
+
+Keywords: 
+
+----
+
+Tags: 
+
+----
+
+Excerpt: 
+
+----
+
+Notes: 
+
+----
+
+Cover: grey
+
+----
+
+Featured: 
+
+----
+
+Printed: 1

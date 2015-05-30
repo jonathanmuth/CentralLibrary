@@ -2,31 +2,84 @@
 
   <main class="main" role="main">
 
-    <h1><?php echo $page->title()->html() ?></h1>
+    <div class="row">
 
-    <ul class="meta cf">
-      <li><b>Year:</b> <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('Y', 'year') ?></time></li>
-      <li><b>Tags:</b> <?php echo $page->tags() ?></li>
-    </ul>
+      <div class="four columns">
 
-    <div class="text">
-      <?php echo $page->text()->kirbytext() ?>
+        <?php snippet('reference/cover', array('data' => $page)) ?>
 
-      <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-      <figure>
-        <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
-      </figure>
-      <?php endforeach ?>
+        <div class="row">
+
+          <div class="six columns">
+            <a class="button" ><i class="fa fa-arrow-circle-down"></i> Download</a>
+          </div><!-- 
+           --><div class="six columns">
+            <a class="button" href="../panel/#/pages/show/<?php echo $page->uri() ?>"><i class="fa fa-pencil"></i> Edit</a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="eight columns">
+
+        <div class="text">
+
+          <?php snippet('reference/header', array('data' => $page)) ?>
+
+          <div class="information">
+
+            <div class="section-header">Information</div>
+
+            <?php snippet('reference/information', array('data' => $page)) ?>
+
+          </div>
+
+          <?php if($page->collections() != ''): ?>
+
+          <div class="collections">
+
+            <div class="section-header">Collections</div>
+
+            <?php snippet('reference/collections', array('data' => $page)) ?>
+
+          </div>
+
+          <?php endif; ?>
+
+          <div class="excerpt">
+
+            <div class="section-header">Excerpt</div>
+
+            <?php echo $page->excerpt()->kirbytext() ?>
+
+          </div>
+
+          <div class="notes">
+
+            <div class="section-header">Notes</div>
+
+            <?php echo $page->notes()->kirbytext() ?>
+
+          </div>
+          
+          <div class="bibtex">
+
+            <div class="section-header">BibTex</div>
+
+            <?php snippet('reference/bibtex', array('data' => $page)) ?>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
 
-    <nav class="nextprev cf" role="navigation">
-      <?php if($prev = $page->prevVisible()): ?>
-      <a class="prev" href="<?php echo $prev->url() ?>">&larr; previous</a>
-      <?php endif ?>
-      <?php if($next = $page->nextVisible()): ?>
-      <a class="next" href="<?php echo $next->url() ?>">next &rarr;</a>
-      <?php endif ?>
-    </nav>
+    <div>
+
+    <hr>
 
   </main>
 

@@ -1,0 +1,38 @@
+.text {
+  font-size: 20px;
+  line-height: $line-height--base;
+  
+  ul, ol {
+    list-style-type: disc; 
+    list-style-position: inside;
+    margin-bottom: 1.3em;
+  }
+  
+  pre {
+    font-size: 80%;
+    padding: 1.5em;
+    background-color: $color--light-grey;
+    border-radius: 0.275em;
+    font-family: $font-stack--monospace
+    font-weight: bold;
+  }
+  
+  p {
+    font-family: $font-stack--serif;
+  }
+  
+  .section-header {
+  border-bottom: 2px solid $color--grey;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+  font-weight: $font-weight--bold;
+  
+  &:before {
+    counter-increment: section;
+    content: counter(section, decimal) '. ';
+  }
+
+}
+
+}

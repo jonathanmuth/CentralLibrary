@@ -1,0 +1,72 @@
+.main {
+  counter-reset: section;
+  width: 100%;
+  position: relative;
+  display: block;
+  padding: 2em;
+  text-align: left;
+  background: $color--white;
+  border: 0.25em solid $color--grey;
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0.5em 0px;
+}
+
+.headline {
+  font-family: $font-stack--serif;
+  font-weight: $font-weight--regular;
+}
+
+hr {
+  margin: 3em 0;
+  height: 2px;
+  background: $color--grey;
+}
+
+.logo {
+  color: $color--light-grey;
+  text-align: center;
+  font-family: $font-stack--serif;
+  font-size: 4em;
+}
+
+.button {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  text-align: center;
+  font-weight: $font-weight--bold;
+  border: 2px solid $color--grey;
+  
+  &:hover {
+    border: 2px solid $color--black;
+    color: $color--black;
+  }
+  
+  &--disabled {
+    color: $color--grey;
+  }
+}
+
+.header {
+  margin-bottom: 2em;
+}
+
+.excerpt {
+  margin-bottom: 1.3em;
+  
+  p {
+    max-width: 600px;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.notes {
+  margin-bottom: 1.3em;
+  
+  p {
+    max-width: 600px;
+  }
+}

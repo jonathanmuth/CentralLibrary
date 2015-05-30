@@ -1,0 +1,15 @@
+.label abbr {
+	color: blue;
+}
+
+.input:focus, .input-is-focused {
+	border-color: blue;
+}
+
+.field-with-headline .hgroup::before {
+	color: blue;
+}
+
+.tag-input {
+	text-transform: none;
+}
