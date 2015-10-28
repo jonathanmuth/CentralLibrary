@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Article
+title: In Book
 pages: false
 files:
   sortable: true
@@ -10,8 +10,8 @@ fields:
     type: headline
   title:
     label: Title
-    required: true
     type: text
+    required: true
   subtitle:
     label: Subtitle
     type: text
@@ -28,11 +28,18 @@ fields:
     required: true
     width: 1/2
     icon: key
-  journal:
-    label: Journal
+  publisher:
+    label: Publisher
     type: text
     required: true
+    width: 1/2
     icon: newspaper-o
+  editor:
+    label: Editor
+    type: text
+    width: 1/2
+    icon: pencil
+    required: false
   year:
     label: Year
     type: number
@@ -50,15 +57,20 @@ fields:
     label: Number
     type: text
     width: 1/2
+  chapter: 
+    label: Chapter
+    type: text
+    width: 1/2
   pages: 
     label: Pages
     type: text
+    width: 1/2
   collections:
     label: Collections
     type: tags
     lowercase: true
-  keywords:
-    label: Keywords
+  tags:
+    label: Tags
     type: tags
     lowercase: false
   attachments:
@@ -74,23 +86,6 @@ fields:
   notes:
     label: Notes
     type: textarea
-  quotes:
-    label: Quotes
-    type: structure
-    entry: >
-      <strong>{{quotetitle}}</strong><br >
-      <em>{{quotebody}}<em><br />
-      <small>{{quotepages}}<small>
-    fields:
-      quotetitle:
-        label: Quote Title
-        type: text
-      quotebody:
-        label: Quote
-        type: textarea
-      quotepages:
-        label: Page/s
-        type: text
   display:
     label: Display Options
     type: headline

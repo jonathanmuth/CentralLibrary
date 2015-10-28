@@ -5,7 +5,13 @@
   ul, ol {
     list-style-type: disc; 
     list-style-position: inside;
-    margin-bottom: 1.3em;
+    margin-bottom: 1.2em;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  
+  li {
   }
   
   pre {
@@ -18,7 +24,11 @@
   }
   
   p {
-    font-family: $font-stack--serif;
+    margin-bottom: 1em;
+  }
+  
+  & .excerpt {
+    font-size: 0.8em;
   }
   
   .section-header {

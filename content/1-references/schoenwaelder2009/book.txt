@@ -1,0 +1,159 @@
+Title: George Spencer Brown
+
+----
+
+Subtitle: Eine Einführung in die "Laws of Form"
+
+----
+
+Author: Schönwälder-Kuntze,  Tatjana
+
+----
+
+Citekey: schoeenwaelder2004
+
+----
+
+Publisher: VS Verlag für Sozialwissenschaften
+
+----
+
+Editor: 
+
+----
+
+Address: Wiesbaden
+
+----
+
+Year: 2009
+
+----
+
+Month: 
+
+----
+
+Volume: 
+
+----
+
+Number: 
+
+----
+
+Series: 
+
+----
+
+Edition: 
+
+----
+
+Pages: 
+
+----
+
+Collections: Bachelor-Arbeit,Systemtheorie
+
+----
+
+Keywords: 
+
+----
+
+Tags: 
+
+----
+
+Excerpt: 
+
+# Kontexte der Laws of Form:
+
+## Technik
+
+Ausgehend von schaltalgebraischen Problem keine imaginären Zahlen abbilden zu können, versucht Spencer Brown die Boolsche Algebra (0/1) um einen imaginären Zustand zu erweitern. So wird es mittels "Gleichungen Zweiten Grades" möglich  den Wiedereintritt eines Zustands in sich selbst zu beschreiben.
+
+Spence Brown versteht das Verhältnis von Theorie zu Praxis als äußerst produktiv und essentiell für wissenschaftlichen Fortschritt
+
+- Praktisches Können und Vertrauen mit neuen Form sorgen erst dafür, dass man  Sie theoretisch erfassen kann.
+- Theorie wird erst dann nachvollziehbar, wenn Sie beim Leser eigenen theoretische Erfahrungen erzeugt.
+
+Browns Vokabular: knowing-how, application (inner-/ außertheoretische Anwendung), interpretation, illustration, representation, use, injunction (Anweisung)
+
+Die Injunction ist als Leitbegriff der Laws of Form zu verstehen.
+
+## Mathematik
+
+Zu theoretischen Fundierung der Arbeit mit imaginären Werten strebt Spencer Brown die Vereinfachung von Strukturen bis hin zum “einfachsten Grund” – dem Treffen einer elementaren Unterscheidung – an. Erst durch die Unterscheidung wird es möglich voneinander unterschiedene Zustände zu definieren.
+
+Diese Unterscheidung von zwei Zuständen (Werten) soll aber um einen weiteren imaginären Wert (i) erweitert werden. Um produktiv mit dieser Vereinfachung umgehen zu können, muss aber in Verlernprozess eingeleitet werden, der es dann möglich mach “mit der Form zu beginnen”.
+
+Durch die Wahl des mathematischen Beweisverfahrens als Erklärungsmodus wird der Leser “injuintiv” dazu angehalten jede einzelne Denkhandlung nachzuvollziehen.
+
+Maximale Einfachheit und hinreichende Komplexität werden durch die *Form der Unterscheidung* möglich. Die Einführung eines imaginären Werts in diese Unterscheidung begründet Spencer Brown mit der aus ihm entstehenden Möglichkeit der Ableitung – denn der Zustand selbst sagt schon etwas darüber aus, was nicht in ihm enthalten ist (Markierung und Nicht-Markierung).
+
+### Vier Vereinfachungen
+
+1. Rückbeziehung auf die Form der Unterscheidung weißt über die Nicht-Markierung explizit auf das Nicht-Markierte hin.
+2. Markierungszeichen ist sowohl Operand als auch Operator.
+3. Das Zeichen selbst funktioniert als Operationszeichen, dass nicht durch einen singulären oder binären Geltungsbereich eingeschränkt ist.
+4. Die Notation ist zweidimensional – also nicht linear.
+
+Aus diesen Vereinfachungen ergibt sich ein Minimalinventar an Zeichen, dass Spencer Brown zur Entwicklung einer primären Arithmetik nutzt.
+
+Algebra: Wissenschaft der Beziehungen von Variablen
+Arithmetik: Wissenschaft von Konstanten
+
+Algebra kann auch als Wissenschaft von symbolischen Operationen verstanden werden. Spence Brown möchte mit der Entwicklung einer primärer oder auch *nich-numerischen Arithmetik*, aus der Mathematik anstelle einer Wissenschaft der Größen einer Wissenschaft der Unterscheidungen machen.
+
+Symbolische (algebraische) Operationen müssen an die Form der Unterscheidung gebunden werden.
+
+Es handelt sich hierbei um ein Indikationenkalkül (System von Regeln), mit dem sich Aussagen über die Transformation von Äquivalenzbeziehungen machen lassen.
+
+Die Formalität des Kalküls ist nur dann gegeben, wenn die in ihm enthaltenen Symbole interpretationsfrei sind – also für nichts stehen. Sie deuten, als Hinweise auf die Form der Untscheidung, allein auf einen Gegenstandsbereich hin.
+
+### Drei Teile der Laws of Form
+1. Primäre Arithmetik
+2. Primäre Algebra
+3. Erweiterte Algebra
+
+**Gleichung des ersten Grades**: Besittim im Rahmen der beiden Zustände der Form der Unterscheidung.
+**Gleichung des zweiten Grades**: Bestimmt sich selbst dadurch, dass  ein Ausdruck, in dem Ausdruck durch den er bestimmt werden soll selbst vorkommt. (Re-Entry)
+**Erweiterung um einen dritten imaginären Zustand**: Wird nur dadurch möglich, dass der erste und der zwei Zustand (Bedingt durch die Selbstreferentialität der Gleichung des zweiten Grades) oszillieren. Dieser Zustand ist, was er nicht ist und ermöglich dadurch den Umgang mit Paradoxen.
+
+### Injunktive Methode
+
+Das worauf hingewiesen wird, muss als komplexe Form verstanden werden. Die Form hat keinen Bestand, sondern muss sich immer wieder aufs Neue regenerieren – ansonsten kann sie auf Leere reduziert werden.
+
+Weder Raum noch Zeit werden vorausgesetzt. Raum  entsteht erst dann, wenn Unterschieden wird – Zeit erst dann, wenn die Unterscheidung beginnt in Selbstreferenz zu oszillieren.
+
+*The first distinction marks the first space for the first time*.
+
+Die injunktive Methode setzt im Erkenntnismodus voraus, dass man so tut, als ob und nichts als gegeben hinnimmt.
+
+Um zu verstehen (understanding) muss man lernen sich unter Bekanntes zu stellen (standing under) und zwischen den verschiedenen Ebenen des Verstehens und Unterscheidens zu wechseln.
+
+Die Differenz zwischen Handlung eines Akteurs und dem passiven Ereigniss werden daruch überschritten, dass der Leser aktiv nachvollzieht und Bestehendes selbst rekonstruiert.
+
+### Erkenntnistheoretische Implikationen
+**Erkenntnis ist dann adäquat, wenn sie Unterscheidungen generiert**.
+
+
+### Logik
+
+----
+
+Notes: 
+
+----
+
+Cover: blue
+
+----
+
+Featured: 
+
+----
+
+Printed: 

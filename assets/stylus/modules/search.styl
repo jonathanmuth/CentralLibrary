@@ -3,10 +3,6 @@
   display: inline-block;
   vertical-align: top;
   
-  &__ {
-
-  }
-  
   input[type="search"] {
     -webkit-appearance: textfield;
   }
@@ -16,10 +12,12 @@
     position: relative;
     font-size: 2.45em;
     padding: 0.25em;
+    padding-left: 2em;
     width: 100%;
     border: 0.25rem solid $color--grey;
+    border-radius: 0.125rem;
     background-image: url("../icons/search-grey.svg")
-    background-position: 98% center;
+    background-position: 2% center;
     background-size: 1em;
     background-repeat: no-repeat;
     
@@ -35,10 +33,6 @@
   input[type="search"]::-webkit-search-results-button,
   input[type="search"]::-webkit-search-results-decoration {
     display: none;
-  }
-  
-  &__dropdown {
-
   }
 
 }

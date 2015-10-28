@@ -1,4 +1,4 @@
-Title: S/Z
+Title: Platonic Dialogue
 
 ----
 
@@ -6,27 +6,19 @@ Subtitle:
 
 ----
 
-Author: Barthes, Roland
+Author: Serres, Michel
 
 ----
 
-Citekey: barthes:1974
+Citekey: serres1982a
 
 ----
 
-Publisher: Blackwell
+Journal: The Hermes: Hermes: Literature, Science, Philosophy
 
 ----
 
-Editor: 
-
-----
-
-Address: New York
-
-----
-
-Year: 1974
+Year: 1982
 
 ----
 
@@ -42,15 +34,7 @@ Number:
 
 ----
 
-Series: 
-
-----
-
-Edition: 
-
-----
-
-Pages: 
+Pages: pp. 65-70
 
 ----
 
@@ -74,11 +58,15 @@ Notes:
 
 ----
 
-Cover: blue
+Quotes: 
 
 ----
 
-Featured: 
+Cover: grey
+
+----
+
+Featured: 1
 
 ----
 

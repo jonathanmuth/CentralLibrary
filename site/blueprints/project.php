@@ -11,6 +11,7 @@ fields:
   title:
     label: Title
     type: text
+    required: true
   subtitle:
     label: Subtitle
     type: text
@@ -27,6 +28,18 @@ fields:
     required: true
     width: 1/2
     icon: key
+  publisher:
+    label: Publisher
+    type: text
+    required: true
+    width: 1/2
+    icon: newspaper-o
+  editor:
+    label: Editor
+    type: text
+    width: 1/2
+    icon: pencil
+    required: false
   journal:
     label: Journal
     type: text

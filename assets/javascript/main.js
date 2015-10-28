@@ -4,10 +4,10 @@ var tr = document.querySelectorAll('.row');
 /* Animate all divs at once. */
 Velocity(tr, 'transition.slideUpIn', {stagger: 100, duration: 200});
 
-var cover = document.querySelectorAll('.reference');
+var card = document.querySelectorAll('.card-view__card');
 
 /* Animate all divs at once. */
-Velocity(cover, 'transition.slideUpIn',{stagger: 100, duration: 200, display: "inline-block"})
+Velocity(card, 'transition.slideUpIn',{stagger: 100, duration: 200, display: "inline-block"})
 
 
 var showText = function (target, message, index, interval) {   

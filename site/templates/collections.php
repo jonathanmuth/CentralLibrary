@@ -6,19 +6,19 @@
 
         <h2 class="collection__name"><?php echo urldecode($collection) ?></h2>
 
-        <ul class="references">
-        <?php foreach($references as $reference): ?><!-- 
-           --><li class="reference">
+        <ul class="card-view">
+          <?php foreach($references as $reference): ?><!-- 
+             --><li class="card-view__card">
               <?php snippet('reference/cover', array('data' => $reference)) ?>
             </li><!--
-          --><?php endforeach ?>
-        </ul>
+          --><?php endforeach ?><!-- 
+         --></ul>
 
       <?php else: ?> <!-- Display all collections -->
         
-        <ul class="references">
+        <ul class="card-view">
         <?php foreach($collections as $collection): ?><!-- 
-       --><li class="reference">
+       --><li class="card-view__card">
         <div class="collection">
           <div class="collection__wrapper">
             <div class="collection__title"><?php echo html($collection) ?></div>
@@ -26,8 +26,8 @@
           <a class="collection__link" href="<?php echo url('collections/collection:' . urlencode($collection))?>"></a>
         </div>
         </li><!--
-      --><?php endforeach ?>
-      </ul>
+      --><?php endforeach ?><!-- 
+      --></ul>
 
       <?php endif; ?>
 

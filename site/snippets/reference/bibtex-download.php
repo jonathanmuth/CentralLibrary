@@ -1,7 +1,7 @@
 @<?php echo $data->intendedTemplate() ?>{<?php echo $data->citekey() ?>,
 <?php if($data->author() != ''): ?>  Author = {<?php echo $data->author() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->editor() != ''): ?>  Editor = {<?php echo $data->editor() ?>},<?php echo "\n" ?><?php endif ?>
-<?php if($data->key() != ''): ?>  Key = {<?php echo $data->key() ?>},<?php echo "\n" ?><?php endif ?>
+<?php if($data->citekey() != ''): ?>  Key = {<?php echo $data->citekey() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->title() != ''): ?>  Title = {{<?php echo $data->title() ?><?php if($data->subtitle() != ''): ?> <?php echo $data->subtitle() ?><?php endif ?>}},<?php echo "\n" ?><?php endif ?>
 <?php if($data->type() != ''): ?>  Type = {<?php echo $data->type() ?>},<?php echo "\n" ?><?php endif ?>
 <?php if($data->series() != ''): ?>  Series = {<?php echo $data->series() ?>},<?php echo "\n" ?><?php endif ?>

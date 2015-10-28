@@ -10,6 +10,7 @@ fields:
     type: headline
   title:
     label: Title
+    required: true
     type: text
   subtitle:
     label: Subtitle
@@ -69,12 +70,6 @@ fields:
     label: Edition
     type: text
     width: 1/2
-  pages: 
-    label: Pages
-    type: text
-  organization:
-    label: Organization
-    type: headline
   collections:
     label: Collections
     type: tags

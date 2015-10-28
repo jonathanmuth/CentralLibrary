@@ -6,7 +6,7 @@ Subtitle: A Wizard & His Man
 
 ----
 
-Author: Jamis Buck
+Author: Buck, Jamis
 
 ----
 
